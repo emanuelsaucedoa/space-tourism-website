@@ -1,0 +1,33 @@
+/* Bellefair 400 --> font-family: 'Bellefair', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+/* Barlow condensed 400 --> font-family: 'Barlow Condensed', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+*{
+    margin: 0;
+}
+
+:root{
+    --white: #FFFFFF;
+    --aqua: #D0D6F9;
+    --dark: #0b0d17;
+}
+
+.container{
+    height: 100vh;
+    background-image: url('../assets/home/background-home-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container .header{
+    border: 2px solid white;
+    height: 150px;
+}
+
+.container .content{
+    border: 2px solid blue;
+    height: 600px;
+}
