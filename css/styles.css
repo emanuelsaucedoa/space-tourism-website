@@ -16,7 +16,10 @@
 
 .container{
     height: 100vh;
-    background-image: url('../assets/home/background-home-desktop.jpg');
+    /* background image HOME */
+    /* background-image: url('../assets/home/background-home-desktop.jpg');  */
+    /* background image DESTINATION */
+    background-image: url('../assets/destination/background-destination-desktop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -67,7 +70,7 @@
     right: 97%;
 }
 
-.container .content{
+.container .contentHome{
     height: 750px;
     color: var(--white);
     display: flex;
@@ -75,33 +78,33 @@
     align-items: center;
 }
 
-.container .content div{
+.container .contentHome div{
     width: 78%;
     display: flex;
     justify-content: space-between;
 }
 
-.container .content div .presentation{
+.container .contentHome div .presentation{
     width: 475px;
     height: 375px;
     display: flex;
     flex-direction: column;
 }
 
-.container .content div .presentation h5{
+.container .contentHome div .presentation h5{
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 28px;
     letter-spacing: 4.75px;
     color: var(--aqua);
 }
 
-.container .content div .presentation h1{
+.container .contentHome div .presentation h1{
     font-family: 'Bellefair', serif;
     font-size: 150px;
     font-weight: 400;
 }
 
-.container .content div .presentation p{
+.container .contentHome div .presentation p{
     font-family: 'Barlow Condensed', sans-serif;
     color: var(--aqua);
     font-size: 18px;
@@ -110,14 +113,14 @@
     text-align: justify;
 }
 
-.container .content div .explore{
+.container .contentHome div .explore{
     width: 475px;
     display: flex;
     justify-content: end;
     align-items: end;
 }
 
-.container .content div .explore button{
+.container .contentHome div .explore button{
     width: 275px;
     height: 275px;
     border-radius: 50%;
