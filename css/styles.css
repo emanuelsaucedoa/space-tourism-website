@@ -23,11 +23,52 @@
 }
 
 .container .header{
-    border: 2px solid white;
     height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .header img{
+    margin-left: 50px;
+}
+
+.container .header nav{
+    width: 800px;
+    height: 85px;
+    background-color: #47474729;
+    backdrop-filter: blur(10px);
+}
+
+.container .header nav ul{
+    height: 100%;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding-right: 75px;
+}
+
+.container .header nav ul li a{
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+}
+
+.container .header .line{
+    background-color: rgb(112, 112, 112, 0.5);
+    height: 1px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    right: 97%;
 }
 
 .container .content{
     border: 2px solid blue;
-    height: 600px;
+    height: 750px;
 }
+
