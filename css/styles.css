@@ -68,7 +68,63 @@
 }
 
 .container .content{
-    border: 2px solid blue;
     height: 750px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .content div{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .content div .presentation{
+    width: 475px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .content div .presentation h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 4.75px;
+    color: var(--aqua);
+}
+
+.container .content div .presentation h1{
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+    font-weight: 400;
+}
+
+.container .content div .presentation p{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: var(--aqua);
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    text-align: justify;
+}
+
+.container .content div .explore{
+    width: 475px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.container .content div .explore button{
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    font-family: 'Bellefair', serif;
+    background-color: var(--white);
+    border: none;
+    color: var(--dark);
+    font-size: 34px;
 }
 
