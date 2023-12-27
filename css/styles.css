@@ -70,6 +70,8 @@
     right: 97%;
 }
 
+/* HOME */
+
 .container .contentHome{
     height: 750px;
     color: var(--white);
@@ -130,4 +132,552 @@
     color: var(--dark);
     font-size: 34px;
 }
+
+/* DESTINATION MOON */
+
+.container .contentDestinationMoon{
+    height: 750px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .contentDestinationMoon div{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .contentDestinationMoon div .image{
+    width: 475px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .contentDestinationMoon div .image span{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    color: rgb(255, 255, 255, 0.25);
+    margin-right: 10px;
+}
+
+.container .contentDestinationMoon div .image h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    align-self: flex-start;
+}
+
+.container .contentDestinationMoon div .image img{
+    width: 400px;
+}
+
+.container .contentDestinationMoon div .info{
+    width: 475px;
+    height: 500px;
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.container .contentDestinationMoon div .info nav{
+    margin-left: -40px;
+    margin-bottom: 25px;
+}
+
+.container .contentDestinationMoon div .info nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.container .contentDestinationMoon div .info nav ul li a{
+    text-decoration: none;
+    color: var(--aqua);
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+}
+
+.container .contentDestinationMoon div .info h2{
+    font-family: 'Bellefair', serif;
+    font-size: 100px;
+    font-weight: 300;
+}
+
+.container .contentDestinationMoon div .info p{
+    width: 95%;
+    height: 200px;
+    color: var(--aqua);
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+    line-height: 36px;
+}
+
+.container .contentDestinationMoon div .info .line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(255, 255, 255, 0.25);
+}
+
+.container .contentDestinationMoon div .info .distanceAndTravel .distance{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .contentDestinationMoon div .info .distanceAndTravel .distance h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    color: var(--aqua);
+    letter-spacing: 2.36px;
+}
+
+.container .contentDestinationMoon div .info .distanceAndTravel .distance h1{
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    color: var(--white);
+    font-weight: 300;
+}
+
+.container .contentDestinationMoon div .info .distanceAndTravel .travel{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .contentDestinationMoon div .info .distanceAndTravel .travel h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    color: var(--aqua);
+    letter-spacing: 2.36px;
+}
+
+.container .contentDestinationMoon div .info .distanceAndTravel .travel h1{
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    color: var(--white);
+    font-weight: 300;
+}
+
+/* DESTINATION MARS */
+
+.container .contentDestinationMars{
+    height: 750px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .contentDestinationMars div{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .contentDestinationMars div .image{
+    width: 475px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .contentDestinationMars div .image span{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    color: rgb(255, 255, 255, 0.25);
+    margin-right: 10px;
+}
+
+.container .contentDestinationMars div .image h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    align-self: flex-start;
+}
+
+.container .contentDestinationMars div .image img{
+    width: 400px;
+}
+
+.container .contentDestinationMars div .info{
+    width: 475px;
+    height: 500px;
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.container .contentDestinationMars div .info nav{
+    margin-left: -40px;
+    margin-bottom: 25px;
+}
+
+.container .contentDestinationMars div .info nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.container .contentDestinationMars div .info nav ul li a{
+    text-decoration: none;
+    color: var(--aqua);
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+}
+
+.container .contentDestinationMars div .info h2{
+    font-family: 'Bellefair', serif;
+    font-size: 100px;
+    font-weight: 300;
+}
+
+.container .contentDestinationMars div .info p{
+    width: 95%;
+    height: 200px;
+    color: var(--aqua);
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+    line-height: 36px;
+}
+
+.container .contentDestinationMars div .info .line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(255, 255, 255, 0.25);
+}
+
+.container .contentDestinationMars div .info .distanceAndTravel .distance{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .contentDestinationMars div .info .distanceAndTravel .distance h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    color: var(--aqua);
+    letter-spacing: 2.36px;
+}
+
+.container .contentDestinationMars div .info .distanceAndTravel .distance h1{
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    color: var(--white);
+    font-weight: 300;
+}
+
+.container .contentDestinationMars div .info .distanceAndTravel .travel{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .contentDestinationMars div .info .distanceAndTravel .travel h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    color: var(--aqua);
+    letter-spacing: 2.36px;
+}
+
+.container .contentDestinationMars div .info .distanceAndTravel .travel h1{
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    color: var(--white);
+    font-weight: 300;
+}
+
+/* DESTINATION EUROPA */
+
+.container .contentDestinationEuropa{
+    height: 750px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .contentDestinationEuropa div{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .contentDestinationEuropa div .image{
+    width: 475px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .contentDestinationEuropa div .image span{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    color: rgb(255, 255, 255, 0.25);
+    margin-right: 10px;
+}
+
+.container .contentDestinationEuropa div .image h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    align-self: flex-start;
+}
+
+.container .contentDestinationEuropa div .image img{
+    width: 400px;
+}
+
+.container .contentDestinationEuropa div .info{
+    width: 475px;
+    height: 500px;
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.container .contentDestinationEuropa div .info nav{
+    margin-left: -40px;
+    margin-bottom: 25px;
+}
+
+.container .contentDestinationEuropa div .info nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.container .contentDestinationEuropa div .info nav ul li a{
+    text-decoration: none;
+    color: var(--aqua);
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+}
+
+.container .contentDestinationEuropa div .info h2{
+    font-family: 'Bellefair', serif;
+    font-size: 100px;
+    font-weight: 300;
+}
+
+.container .contentDestinationEuropa div .info p{
+    width: 95%;
+    height: 200px;
+    color: var(--aqua);
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+    line-height: 36px;
+}
+
+.container .contentDestinationEuropa div .info .line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(255, 255, 255, 0.25);
+}
+
+.container .contentDestinationEuropa div .info .distanceAndTravel .distance{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .contentDestinationEuropa div .info .distanceAndTravel .distance h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    color: var(--aqua);
+    letter-spacing: 2.36px;
+}
+
+.container .contentDestinationEuropa div .info .distanceAndTravel .distance h1{
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    color: var(--white);
+    font-weight: 300;
+}
+
+.container .contentDestinationEuropa div .info .distanceAndTravel .travel{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .contentDestinationEuropa div .info .distanceAndTravel .travel h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    color: var(--aqua);
+    letter-spacing: 2.36px;
+}
+
+.container .contentDestinationEuropa div .info .distanceAndTravel .travel h1{
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    color: var(--white);
+    font-weight: 300;
+}
+
+/* DESTINATION TITAN */
+
+.container .contentDestinationTitan{
+    height: 750px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .contentDestinationTitan div{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .contentDestinationTitan div .image{
+    width: 475px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .contentDestinationTitan div .image span{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    color: rgb(255, 255, 255, 0.25);
+    margin-right: 10px;
+}
+
+.container .contentDestinationTitan div .image h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    align-self: flex-start;
+}
+
+.container .contentDestinationTitan div .image img{
+    width: 400px;
+}
+
+.container .contentDestinationTitan div .info{
+    width: 475px;
+    height: 500px;
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.container .contentDestinationTitan div .info nav{
+    margin-left: -40px;
+    margin-bottom: 25px;
+}
+
+.container .contentDestinationTitan div .info nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.container .contentDestinationTitan div .info nav ul li a{
+    text-decoration: none;
+    color: var(--aqua);
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+}
+
+.container .contentDestinationTitan div .info h2{
+    font-family: 'Bellefair', serif;
+    font-size: 100px;
+    font-weight: 300;
+}
+
+.container .contentDestinationTitan div .info p{
+    width: 95%;
+    height: 200px;
+    color: var(--aqua);
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+    line-height: 36px;
+}
+
+.container .contentDestinationTitan div .info .line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(255, 255, 255, 0.25);
+}
+
+.container .contentDestinationTitan div .info .distanceAndTravel .distance{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .contentDestinationTitan div .info .distanceAndTravel .distance h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    color: var(--aqua);
+    letter-spacing: 2.36px;
+}
+
+.container .contentDestinationTitan div .info .distanceAndTravel .distance h1{
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    color: var(--white);
+    font-weight: 300;
+}
+
+.container .contentDestinationTitan div .info .distanceAndTravel .travel{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .contentDestinationTitan div .info .distanceAndTravel .travel h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    color: var(--aqua);
+    letter-spacing: 2.36px;
+}
+
+.container .contentDestinationTitan div .info .distanceAndTravel .travel h1{
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    color: var(--white);
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
 
