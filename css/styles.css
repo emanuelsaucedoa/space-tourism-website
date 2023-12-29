@@ -19,7 +19,9 @@
     /* background image HOME */
     /* background-image: url('../assets/home/background-home-desktop.jpg');  */
     /* background image DESTINATION */
-    background-image: url('../assets/destination/background-destination-desktop.jpg');
+    /* background-image: url('../assets/destination/background-destination-desktop.jpg'); */
+    /* background image CREW */
+    background-image: url('../assets/crew/background-crew-desktop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -672,6 +674,400 @@
     color: var(--white);
     font-weight: 300;
 }
+
+/* CREW DOUGLAS HURLEY */
+
+.container .contentCrewDouglas{
+    height: 750px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .contentCrewDouglas div{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .contentCrewDouglas div .info{
+    width: 650px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .contentCrewDouglas div .info span{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    color: rgb(255, 255, 255, 0.25);
+    margin-right: 10px;
+}
+
+.container .contentCrewDouglas div .info h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    align-self: flex-start;
+}
+
+.container .contentCrewDouglas div .info .userData{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.container .contentCrewDouglas div .info .userData h4{
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    color: rgb(255, 255, 255, 0.5);
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.container .contentCrewDouglas div .info .userData h3{
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.container .contentCrewDouglas div .info .userData p{
+    width: 80%;
+    height: 200px;
+    color: var(--aqua);
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+    line-height: 36px;
+}
+
+.container .contentCrewDouglas div .info .carrousel{
+    height: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 25px;
+    align-self: flex-start;
+}
+
+.container .contentCrewDouglas div .info .carrousel div{
+    height: 12px;
+    width: 12px;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 50%;
+}
+
+.container .contentCrewDouglas div .image{
+    width: 400px;
+    height: 100%;  
+    justify-content: end;
+    align-items: end;  
+}
+
+/* CREW MARK SHUTTLEWORTH */
+
+.container .contentCrewMark{
+    height: 750px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .contentCrewMark div{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .contentCrewMark div .info{
+    width: 650px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .contentCrewMark div .info span{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    color: rgb(255, 255, 255, 0.25);
+    margin-right: 10px;
+}
+
+.container .contentCrewMark div .info h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    align-self: flex-start;
+}
+
+.container .contentCrewMark div .info .userData{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.container .contentCrewMark div .info .userData h4{
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    color: rgb(255, 255, 255, 0.5);
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.container .contentCrewMark div .info .userData h3{
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.container .contentCrewMark div .info .userData p{
+    width: 80%;
+    height: 200px;
+    color: var(--aqua);
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+    line-height: 36px;
+}
+
+.container .contentCrewMark div .info .carrousel{
+    height: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 25px;
+    align-self: flex-start;
+}
+
+.container .contentCrewMark div .info .carrousel div{
+    height: 12px;
+    width: 12px;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 50%;
+}
+
+.container .contentCrewMark div .image{
+    width: 400px;
+    height: 100%;  
+    justify-content: end;
+    align-items: end;  
+}
+
+/* CREW VICTOR GLOVER */
+
+.container .contentCrewVictor{
+    height: 750px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .contentCrewVictor div{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .contentCrewVictor div .info{
+    width: 650px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .contentCrewVictor div .info span{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    color: rgb(255, 255, 255, 0.25);
+    margin-right: 10px;
+}
+
+.container .contentCrewVictor div .info h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    align-self: flex-start;
+}
+
+.container .contentCrewVictor div .info .userData{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.container .contentCrewVictor div .info .userData h4{
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    color: rgb(255, 255, 255, 0.5);
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.container .contentCrewVictor div .info .userData h3{
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.container .contentCrewVictor div .info .userData p{
+    width: 80%;
+    height: 200px;
+    color: var(--aqua);
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+    line-height: 36px;
+}
+
+.container .contentCrewVictor div .info .carrousel{
+    height: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 25px;
+    align-self: flex-start;
+}
+
+.container .contentCrewVictor div .info .carrousel div{
+    height: 12px;
+    width: 12px;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 50%;
+}
+
+.container .contentCrewVictor div .image{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+/* CREW ANOUSHEH ANSARI */
+
+.container .contentCrewAnousheh{
+    height: 750px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .contentCrewAnousheh div{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .contentCrewAnousheh div .info{
+    width: 650px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .contentCrewAnousheh div .info span{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    color: rgb(255, 255, 255, 0.25);
+    margin-right: 10px;
+}
+
+.container .contentCrewAnousheh div .info h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    align-self: flex-start;
+}
+
+.container .contentCrewAnousheh div .info .userData{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.container .contentCrewAnousheh div .info .userData h4{
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    color: rgb(255, 255, 255, 0.5);
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.container .contentCrewAnousheh div .info .userData h3{
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.container .contentCrewAnousheh div .info .userData p{
+    width: 80%;
+    height: 200px;
+    color: var(--aqua);
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+    line-height: 36px;
+}
+
+.container .contentCrewAnousheh div .info .carrousel{
+    height: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 25px;
+    align-self: flex-start;
+}
+
+.container .contentCrewAnousheh div .info .carrousel div{
+    height: 12px;
+    width: 12px;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 50%;
+}
+
+.container .contentCrewAnousheh div .image{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+
+
+
 
 
 
