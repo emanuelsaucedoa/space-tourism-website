@@ -21,7 +21,9 @@
     /* background image DESTINATION */
     /* background-image: url('../assets/destination/background-destination-desktop.jpg'); */
     /* background image CREW */
-    background-image: url('../assets/crew/background-crew-desktop.jpg');
+    /* background-image: url('../assets/crew/background-crew-desktop.jpg'); */
+    /* background image TECHNOLOGY */
+    background-image: url('../assets/technology/background-technology-desktop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1064,6 +1066,352 @@
     justify-content: end;
     align-items: end;
 }
+
+/* TECHNOLOGY LAUNCH VEHICLE */
+
+.container .contentTechnologyLaunch{
+    height: 750px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .contentTechnologyLaunch div{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container .contentTechnologyLaunch div .info{
+    width: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .contentTechnologyLaunch div .info span{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    color: rgb(255, 255, 255, 0.25);
+    margin-right: 10px;
+}
+
+.container .contentTechnologyLaunch div .info h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    align-self: flex-start;
+    margin-bottom: 150px;
+}
+
+.container .contentTechnologyLaunch div .info .content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-self: flex-start;
+}
+
+.container .contentTechnologyLaunch div .info .content .carrousel{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+}
+
+.container .contentTechnologyLaunch div .info .content .carrousel div{
+    font-family: 'Bellefair', serif;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.container .contentTechnologyLaunch div .info .content .description{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.container .contentTechnologyLaunch div .info .content .description h6{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2.7px;
+    font-size: 16px;
+    color: var(--aqua);
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.container .contentTechnologyLaunch div .info .content .description h3{
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.container .contentTechnologyLaunch div .info .content .description p{
+    width: 80%;
+    height: 200px;
+    color: var(--aqua);
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+    line-height: 36px;
+}
+
+.container .contentTechnologyLaunch div .image{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: absolute;
+    top: -12%;
+    left: 70%;
+}
+
+/* TECHNOLOGY SPACEPORT */
+
+.container .contentTechnologySpaceport{
+    height: 750px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .contentTechnologySpaceport div{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container .contentTechnologySpaceport div .info{
+    width: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .contentTechnologySpaceport div .info span{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    color: rgb(255, 255, 255, 0.25);
+    margin-right: 10px;
+}
+
+.container .contentTechnologySpaceport div .info h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    align-self: flex-start;
+    margin-bottom: 150px;
+}
+
+.container .contentTechnologySpaceport div .info .content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-self: flex-start;
+}
+
+.container .contentTechnologySpaceport div .info .content .carrousel{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+}
+
+.container .contentTechnologySpaceport div .info .content .carrousel div{
+    font-family: 'Bellefair', serif;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.container .contentTechnologySpaceport div .info .content .description{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.container .contentTechnologySpaceport div .info .content .description h6{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2.7px;
+    font-size: 16px;
+    color: var(--aqua);
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.container .contentTechnologySpaceport div .info .content .description h3{
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.container .contentTechnologySpaceport div .info .content .description p{
+    width: 80%;
+    height: 200px;
+    color: var(--aqua);
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+    line-height: 36px;
+}
+
+.container .contentTechnologySpaceport div .image{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: absolute;
+    top: -12%;
+    left: 70%;
+}
+
+/* TECHNOLOGY SPACE CAPSULE */
+
+.container .contentTechnologySpaceCapsule{
+    height: 750px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .contentTechnologySpaceCapsule div{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container .contentTechnologySpaceCapsule div .info{
+    width: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .contentTechnologySpaceCapsule div .info span{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    color: rgb(255, 255, 255, 0.25);
+    margin-right: 10px;
+}
+
+.container .contentTechnologySpaceCapsule div .info h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    align-self: flex-start;
+    margin-bottom: 150px;
+}
+
+.container .contentTechnologySpaceCapsule div .info .content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-self: flex-start;
+}
+
+.container .contentTechnologySpaceCapsule div .info .content .carrousel{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+}
+
+.container .contentTechnologySpaceCapsule div .info .content .carrousel div{
+    font-family: 'Bellefair', serif;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.container .contentTechnologySpaceCapsule div .info .content .description{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.container .contentTechnologySpaceCapsule div .info .content .description h6{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2.7px;
+    font-size: 16px;
+    color: var(--aqua);
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.container .contentTechnologySpaceCapsule div .info .content .description h3{
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.container .contentTechnologySpaceCapsule div .info .content .description p{
+    width: 80%;
+    height: 200px;
+    color: var(--aqua);
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+    line-height: 36px;
+}
+
+.container .contentTechnologySpaceCapsule div .image{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: absolute;
+    top: -12%;
+    left: 70%;
+}
+
 
 
 
