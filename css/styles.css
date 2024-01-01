@@ -17,13 +17,13 @@
 .container{
     height: 100vh;
     /* background image HOME */
-    /* background-image: url('../assets/home/background-home-desktop.jpg');  */
-    /* background image DESTINATION */
-    /* background-image: url('../assets/destination/background-destination-desktop.jpg'); */
-    /* background image CREW */
-    /* background-image: url('../assets/crew/background-crew-desktop.jpg'); */
-    /* background image TECHNOLOGY */
-    background-image: url('../assets/technology/background-technology-desktop.jpg');
+    background-image: url('../assets/home/background-home-desktop.jpg'); 
+    /* background image DESTINATION
+    background-image: url('../assets/destination/background-destination-desktop.jpg');
+    background image CREW
+    background-image: url('../assets/crew/background-crew-desktop.jpg');
+    background image TECHNOLOGY
+    background-image: url('../assets/technology/background-technology-desktop.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
